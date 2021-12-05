@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.App button {
+    background-color: black;
+    color: white;
+    border: 5px solid gold;
+    margin: 10px;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.customer-wrapper {
+    border: 2px solid black;
+    background-color: gold;
+    margin: 5px;
+    padding: 10px;
+}
